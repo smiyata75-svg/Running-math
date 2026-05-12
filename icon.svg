@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#030610"/>
+  <circle cx="256" cy="256" r="220" fill="none" stroke="#00d4ff" stroke-width="8" opacity="0.4"/>
+  <circle cx="256" cy="256" r="180" fill="none" stroke="#00d4ff" stroke-width="2" opacity="0.2"/>
+  <!-- 星 -->
+  <circle cx="80" cy="80" r="3" fill="white" opacity="0.8"/>
+  <circle cx="420" cy="60" r="2" fill="white" opacity="0.6"/>
+  <circle cx="460" cy="200" r="2.5" fill="white" opacity="0.7"/>
+  <circle cx="50" cy="350" r="2" fill="white" opacity="0.5"/>
+  <circle cx="480" cy="400" r="3" fill="white" opacity="0.6"/>
+  <!-- MΣ文字風アイコン -->
+  <text x="256" y="310" font-family="monospace" font-size="160" font-weight="900"
+    text-anchor="middle" fill="url(#g)">∑</text>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00d4ff"/>
+      <stop offset="100%" stop-color="#ffd700"/>
+    </linearGradient>
+  </defs>
+  <!-- 走る人シルエット（小さく） -->
+  <g transform="translate(330,340) scale(0.7)" fill="#ffd700" opacity="0.8">
+    <circle cx="20" cy="5" r="8"/>
+    <line x1="20" y1="13" x2="14" y2="30" stroke="#ffd700" stroke-width="3"/>
+    <line x1="14" y1="30" x2="5" y2="45" stroke="#ffd700" stroke-width="3"/>
+    <line x1="14" y1="30" x2="24" y2="44" stroke="#ffd700" stroke-width="3"/>
+    <line x1="20" y1="20" x2="8" y2="28" stroke="#ffd700" stroke-width="3"/>
+    <line x1="20" y1="20" x2="32" y2="24" stroke="#ffd700" stroke-width="3"/>
+  </g>
+</svg>
